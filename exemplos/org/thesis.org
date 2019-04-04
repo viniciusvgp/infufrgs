@@ -247,7 +247,7 @@ usando o próprio \LaTeX.
 #+CAPTION[Short caption para lista de figuras]: Exemplo de figura importada de um arquivo e também exemplo de caption muito grande que ocupa mais de uma linha na Lista~de~Figuras \legend{Fonte: Os Autores}
 #+LABEL: fig:ex1
 #+ATTR_LATEX: :width 8em
-[[file:~/Desktop/infufrgs/exemplos/fig.pdf]]
+[[file:../fig.pdf]]
 
 #+BEGIN_EXPORT latex
 \begin{figure}

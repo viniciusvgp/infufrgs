@@ -149,7 +149,11 @@ sudo texhash
 * More Latex config                                                  :ignore:
 ** Row spaces wit tabu environment                                  :ignore:
 \tabulinesep=1.2mm
- 
+
+** Caption skip                                                     :ignore:
+\setlength{\abovecaptionskip}{5pt}
+\setlength{\belowcaptionskip}{5pt}
+\setlength{\belowlegendskip}{5pt}
 
 * Acknowledgments
 :PROPERTIES:

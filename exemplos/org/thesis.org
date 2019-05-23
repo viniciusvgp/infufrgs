@@ -101,49 +101,9 @@ sudo texhash
 # TODO how to but more than one advisor
 
 *** our defs
-#+LaTeX_HEADER: \def\incode[#1]{\lstinline[columns=fixed, morekeywords={#1}]{#1}\xspace}
-#+LaTeX_HEADER: \def\DGEMM{\textsc{dgemm}\xspace}
-#+LaTeX_HEADER: \def\DPOTRF{\textsc{dpotrf}\xspace}
-#+LaTeX_HEADER: \def\DSYRK{\textsc{dsyrk}\xspace}
-#+LaTeX_HEADER: \def\DTRSM{\textsc{dtrsm}\xspace}
-#+LaTeX_HEADER: \def\dgemm{\textsc{dgemm}\xspace}
-#+LaTeX_HEADER: \def\dpotrf{\textsc{dpotrf}\xspace}
-#+LaTeX_HEADER: \def\dsyrk{\textsc{dsyrk}\xspace}
-#+LaTeX_HEADER: \def\dtrsm{\textsc{dtrsm}\xspace}
-#+LaTeX_HEADER: \def\Idle{\textsc{Idle}\xspace}
-#+LaTeX_HEADER: \def\cholesky{Cholesky\xspace}
-
-#+LaTeX_HEADER:  \def\spawn{\incode[spawn]}
-#+LaTeX_HEADER:  \def\sync{\incode[sync]}
-#+LaTeX_HEADER:  \def\pragma{\incode[pragma]}
-#+LaTeX_HEADER:  \def\omp{\incode[omp]}
-#+LaTeX_HEADER:  \def\task{\incode[task]}
-#+LaTeX_HEADER:  \def\taskwait{\incode[taskwait]}
-
-#+LaTeX_HEADER:  \def\Read{\incode[read]}
-#+LaTeX_HEADER:  \def\Write{\incode[write]}
-
-#+LaTeX_HEADER:  \def\implements{\incode[implements]}
-#+LaTeX_HEADER:  \def\device{\incode[device]}
 #+LaTeX_HEADER:  \def\manualleg[#1]{{\centering\legend{#1}\par}}
 
-#+LaTeX_HEADER:  \def\git{Git\xspace}
-#+LaTeX_HEADER:  \def\gitannex{\textbf{git-annex}\xspace}
-#+LaTeX_HEADER:  \def\zenodo{Zenodo\xspace}
-#+LaTeX_HEADER:  \def\orgmode{Org-mode\xspace}
-#+LaTeX_HEADER:  \def\org{org\xspace}
-#+LaTeX_HEADER:  \def\babel{\emph{Babel}\xspace}
 
-#+LaTeX_HEADER:  \def\vite{\emph{ViTE}\xspace}
-
-#+LaTeX_HEADER:  \definecolor{dpotrfcolor}{rgb}{0.8675,0,0}
-#+LaTeX_HEADER:  \definecolor{dgemmcolor}{rgb}{0,0.5625,0}
-#+LaTeX_HEADER:  \definecolor{dsyrkcolor}{rgb}{0.5625,0,0.5625}
-#+LaTeX_HEADER:  \definecolor{dtrsmcolor}{rgb}{0,0,0.8675}
-
-#+LaTeX_HEADER:  \def\interactiveviewURL[#1]{\url{http://perf-ev-runtime.gforge.inria.fr/thesis/#1}\xspace}
-
-#+LaTeX_HEADER: \hyphenation{wide-spread}
 
 
 * More Latex config                                                  :ignore:

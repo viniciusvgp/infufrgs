@@ -213,6 +213,11 @@ usando o próprio \LaTeX.
 #+ATTR_LATEX: :width 8em
 [[file:../fig.pdf]]
 
+#+LABEL: fig:ex1b
+#+ATTR_LATEX: :width 8em :caption \caption{Exemplo de caption de figura cuja fonte é outro autor} \manualleg[Fonte: \cite{Adams2009Conceptual}]
+[[file:../fig.pdf]]
+
+
 #+BEGIN_EXPORT latex
 \begin{figure}
     \caption{Exemplo de figura desenhada com o environment \texttt{picture}.}
